@@ -1,0 +1,13 @@
+.Icon {
+    background-color: salmon;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.Icon img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

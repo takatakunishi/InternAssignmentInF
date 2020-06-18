@@ -1,0 +1,45 @@
+.SendPrase{
+    display: grid;
+    grid-auto-columns:  200px 1fr;
+    background-color:  rgb(226, 226, 226);
+    border-radius: 15px;
+}
+
+.SendPrase .UserSelect{
+    grid-column: 1/2;
+}
+
+.SendPrase .SendForm{
+    border-radius: 15px;
+    margin: 4px;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 80% 1fr;
+}
+
+.SendPrase .SendForm .SendMessage{
+    grid-row: 1/2;
+}
+
+.SendPrase .SendForm .SendMessage{
+    margin: 10px;
+    border-radius: 10px;
+    grid-row: 1/2;
+    font-size: 18px;
+    
+}
+.SendPrase .SendForm .SendMessage:focus{
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+    border: solid 2px #3be5ae;
+}
+
+.SendPrase .SendForm .SendMessageButtonContainer{
+    display: flex;
+    justify-content: center;
+    grid-row: 2/3;
+}
+
+.SendMessageButton{
+    width: 80px;
+    border-radius: 5px;
+}

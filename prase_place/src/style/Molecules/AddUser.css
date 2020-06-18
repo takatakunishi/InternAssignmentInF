@@ -1,0 +1,29 @@
+.AddUser{
+    padding-top: 20%;
+    background-color: rgba(255, 195, 255, 0.815);
+    text-align: center;
+    margin: 6px;
+    border-radius: 15px;
+}
+
+.InputUserName , .InputImageUrl{
+    border-radius: 5px;
+    border-color: #fff;
+}
+
+.InputUserName:focus , .InputImageUrl:focus{
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+    border: solid 2px #3be5ae;
+}
+
+.AddUser .submitUser {
+    font-weight: bolder;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.AddUser .submitUser:hover {
+    background: #36c5ad;
+    color: white;
+}

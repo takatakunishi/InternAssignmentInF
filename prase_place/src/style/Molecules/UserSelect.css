@@ -1,0 +1,31 @@
+.UserSelect{
+    background-color: rgba(89, 235, 57, 0.705);
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.UserSelect .IconContainer {
+    height: 120px;
+    display: flex;
+}
+
+.UserSelect .IconContainer .Icon{
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.UserSelect .selectedUserContainer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 7px;
+}
+
+.UserSelect .selectedUser{
+    width: 90%;
+    border-radius: 7px;
+}

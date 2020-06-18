@@ -1,0 +1,20 @@
+.ShowUserInfo{
+    display: grid;
+    grid-auto-columns: 200px 1fr 200px;
+    background-color: rgb(55, 48, 75);
+    border-radius: 15px;
+}
+
+.ShowUserInfo .UserSelect{
+    grid-column: 1/2;
+}
+
+.ShowUserInfo .ClapData{
+    border-radius: 15px;
+    margin: 20px 12px;
+    grid-column: 2/3;
+}
+
+.AddUser {
+    grid-column: 3/4;
+}

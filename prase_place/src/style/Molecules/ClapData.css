@@ -1,0 +1,14 @@
+.ClapData{
+    background-color: rgba(5, 1, 37, 0.884);
+    display: grid;
+    grid-auto-columns: 50% 1fr;
+    color: whitesmoke;
+}
+
+.ClapData .CanClap{
+    grid-column: 1/2;
+}
+
+.ClapData .Clapped{
+    grid-column: 2/3;
+}

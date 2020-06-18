@@ -1,0 +1,19 @@
+.SendForm{
+    background-color: rgba(220, 255, 66, 0.808);
+}
+
+.SendForm .SendMessage{
+    padding: 10px;
+    resize: none;
+}
+
+.SendForm .SendMessageButton {
+    font-weight: bolder;
+    font-size: 16px;
+    transition: .4s;
+}
+
+.SendForm .SendMessageButton:hover{
+    background: #36c5ad;
+    color: white;
+}

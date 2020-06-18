@@ -1,0 +1,20 @@
+.PrasePlaceTemplate{
+    display: grid;
+    grid-template-rows: 160px 160px;
+    min-width: 1000px;
+}
+
+.ShowUserInfo{
+    grid-row: 1/2;
+    min-width: 700px;
+}
+
+.SendPrase{
+    grid-row: 2/3;
+    min-width: 700px;
+}
+
+.ShowPrases{
+    min-width: 700px;
+    height: auto;
+}
