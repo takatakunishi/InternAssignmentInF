@@ -1,4 +1,4 @@
-# intern2022_TakashiNishikawa
+# TakashiNishikawa
 produced by Takashi Nishikawa
 2020/5/27-2020/6/9 (実開発時間4日)
 
